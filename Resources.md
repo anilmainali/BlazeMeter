@@ -17,6 +17,6 @@
 
 ### [Debugging Tests in BlazeMeter](https://onboarding.blazemeter.com/#/lessons/cj25r0b830002356dl84z5rmh?_k=4y1uao)
 
-
-
+# Blaze Meter university
+https://www.blazemeter.com/university/
 

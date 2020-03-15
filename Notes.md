@@ -1,3 +1,25 @@
+# Errors Report
+
+Screen_Shot_2018_08_19_at_15_44_14.png
+
+The Errors tab, as it's name suggests, contains the errors that were received by the web-server under the test as a result of HTTP request. We can see all errors received during the test run, categorized by:
+
+Labels (pages)
+Respondes codes
+Assertions
+
+
+We report on these types of errors:
+
+-Top requests
+-Assertions
+- Failed embedded resources
+- For each error we will display the:
+
+- Response code
+- Response message
+- Number of failed requests
+- Execution__17_.png
 
 # Engine Health Report
 

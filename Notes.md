@@ -1,5 +1,6 @@
 
-Engine Health Report
+# Engine Health Report
+
 The Engine Health Report displays performance indicators received from the test engines (i.e. the infrastructure delivering the test traffic, not your system under test). EngineHleathReport00.png
 
 The Engine Health indicates whether the test infrastructure itself could be the cause of bottlenecks or errors which are appearing in other reports. 
@@ -21,6 +22,9 @@ EngineHleathReport01.png
 and here’s what each of these KPIs mean, 
 
 CPU: Represents the Percentage usage of CPU in instance
+
 Memory: Represents the Percentage usage of the Virtual Memory in instance
+
 Network I/O: Represents the amount of data transferred in I/O operations (KB/s)
+
 Connections: Represents the number of persistent connections established for each transaction throughout the test

@@ -255,3 +255,15 @@ Screen_Shot_2019-04-24_at_5.47.23_PM.png
 Screen_Shot_2019-04-24_at_5.50.19_PM.png
 
 The aggregated report of your Multi Test will start generating results in a few minutes, which also can be filtered for each individual scenario. (For details on how to use these filters, refer to our Reporting Selectors for Scenario and Location guide.)
+
+# My Blazemeter Test Returned a HTTP 500 Code
+When executing your JMeter test script via Blazemeter, you may find that the test encounters a number of HTTP 500 errors in response to some of your samplers, which will appear under the Errors tab of your report.
+
+Screen_Shot_2019-01-21_at_11.33.24_AM.png
+
+HTTP 500 literally means "internal server error". This is a generic code that requires investigating in your application server itself to troubleshoot. On the Blazemeter side, your server does not send us any additional information by which to know why it sent a 500 code.
+
+This error code usually does not point to a problem with Blazemeter, but to a scripting problem. We recommend investigating this problem two ways:
+
+Ensure your script can run in your local JMeter environment prior to running through Blazemeter.
+Investigate your application server, starting with your application server's logs, to see why your server chose to return 500 codes during the timeframe of the test.

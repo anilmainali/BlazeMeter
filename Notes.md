@@ -1,3 +1,16 @@
+Errors report - provides a list of all errors received during the test. You will get a very good sense of what went wrong, e.g if you'll get a lot of 403 Forbidden errors, chances are that your firewall is blocking the traffic from our load generators and you will have to whitelist our IP ranges according to this list.
+
+Engine Health Report - displays the performance indicators received during the test while monitoring the load generators. High CPU or Memory values will indicate the scenario is overwhelming the load generators and adjustments have to be made.
+
+Logs - these mostly refer to the console's log and the load generators (engines) logs. You might be able to notice errors printed to the logs, e.g CSV file not found, Java errors, beanshell errors etc. The logs also present more details on the health of the load generators so the Monitoring Report's originated suspicions can be validated.
+
+
+Aggregate report - enables you to view the statistics according to labels. You may notice that some labels generate a lot of errors, or get high response times than the rest of them.
+
+
+
+
+
 # Errors Report
 
 Screen_Shot_2018_08_19_at_15_44_14.png

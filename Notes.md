@@ -50,3 +50,8 @@ Memory: Represents the Percentage usage of the Virtual Memory in instance
 Network I/O: Represents the amount of data transferred in I/O operations (KB/s)
 
 Connections: Represents the number of persistent connections established for each transaction throughout the test
+
+# JMeter Error Checking (Assertions) and Dynamic Requests (Extraction)
+
+https://www.youtube.com/watch?v=SVxB3Tk4O4A&feature=emb_logo
+

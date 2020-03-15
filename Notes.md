@@ -51,6 +51,14 @@ Network I/O: Represents the amount of data transferred in I/O operations (KB/s)
 
 Connections: Represents the number of persistent connections established for each transaction throughout the test
 
+# Error checking and dynamic requests
+
+in this JMeter video tutorial we will learn how to use assertions to verify the responses on the fly.
+ 
+1. Add error checking to your script - assertions that the responses are valid for a given request.
+2. Use Firebug to view network traffic when you need to debug your test script.
+3. Use a regular expression extractor to retrieve a dynamic value from a response and re-use it in a later request.
+
 # JMeter Error Checking (Assertions) and Dynamic Requests (Extraction)
 
 https://www.youtube.com/watch?v=SVxB3Tk4O4A&feature=emb_logo
